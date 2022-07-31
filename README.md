@@ -17,4 +17,18 @@
 - center - 가운데
 - stretch - 최대한으로 늘린다.
 
+## mainAxisSize : 주축 크기
+- max - 최대
+- min - 최소
+
+# Expanded / Flexible 위젯
+- Row, Column 위젯의 children안에서만 사용 할 수 있다. 다른곳에서 사용시 에러 발생
+## Expanded 위젯
+- 최대한으로 남아있는 사이즈를 모두 차지함
+
+## Flexible 위젯
+- 일단은 비율만큼 공간을 차지를 하되 child안에있는 위젯이 차지한 공간을 다 차지하지않으면 남는 공간을 버려버린다.
+- 생각보다 잘 사용하지않는다.
+
+
 
